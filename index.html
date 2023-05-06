@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <div id="banner" style="padding: 50px">
+      <h1>Hoàng Hữu Vinh</h1>
+      <span>Full Stack Developer</span>
+    </div>
+
+    <section id="nav-bar">
+      <nav class="container-0">
+        <ul>
+          <li>
+            <a class="nav" href="#about">
+              <i class="icon-user"></i>
+              <strong>Thông tin</strong>
+            </a>
+          </li>
+          <li>
+            <a class="nav" href="#job-info"
+              ><i class="icon-doc-text-inv"></i>
+              <strong>Lý lịch</strong>
+            </a>
+          </li>
+          <li class="d-none d-lg-inline">
+            <a href="#" class="nav-img">
+              <img src="costume4.svg" alt="avatar" class="img-avt" />
+            </a>
+          </li>
+          <li>
+            <a class="nav" href="#certificate"
+              ><i class="icon-mail-alt"></i>
+              <strong> Chứng chỉ</strong>
+            </a>
+          </li>
+          <li>
+            <a class="nav" href="#project"
+              ><i class="icon-star-1"></i>
+              <strong> Dự Án</strong>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section id="about" class="bg-grey">
+      <div class="container-1">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <div id="target">
+              <h1 class="section-title" id="item1">Mục tiêu nghề nghiệp</h1>
+              <p>
+                Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+                của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+                <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+                trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+                hoàn thành tốt nhất công việc được giao.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div id="personal-info">
+              <div class="input-email">
+                <input class="input" placeholder="nhập email bạn vào" />
+                <button id="submit-button">submit</button>
+              </div>
+              <div id="thongtincanhan" style="display: none">
+                <h1 class="section-title" id="item2">Thông tin cá nhân</h1>
+                <ul class="mt-40 info">
+                  <li><span>Giới tính</span> : Nam</li>
+                  <li><span>Ngày sinh</span> : 06/01/2022</li>
+                  <li><span>Điện thoại</span> : (+84) 0784 090 345</li>
+                  <li><span>Email</span> : hhvinhvt@gmail.com</li>
+                  <li><span>Địa chỉ</span> : Vũng Tàu chung cư lakeside</li>
+                  <li><span>Website</span> : pos68.net.vn</li>
+                </ul>
+                <ul class="icon-ttcn">
+                  <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1>Kinh nghiệm</h1>
+            <div class="grid2">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+                <button class="btn btn-primary to-show" id="to-show1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">VIEW MORE</button>
+              </p>
+              <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                <h4 class="bold">Full Stack devloper - Công ty Y</h4>
+                <p>
+                  <i>05/2022 - <span class="green1">Hiện tại</span></i>
+                </p>
+                <p>
+                  -Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã
+                  có.
+                </p>
+                <p>
+                  -Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL
+                  (MySQL, SQLServer, NoSQL, …) và viết được các câu truy vấn.
+                </p>
+                <p>
+                  -Sử dụng ngôn ngữ serverside (Python, Java, …) để xây dựng các
+                  Web Serv
+                </p>
+                <h4 class="bold2">Web designer - Công ty X</h4>
+                <p><i>06/2021 - 04/2022</i></p>
+                <p>-Thiết kế Website dự trên yêu cầu của khách hàng.</p>
+                <p>-Sử dụng các công cụ: Figma, Canva, PTS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1 class="">Kỹ năng</h1>
+            <div class="grid2">
+              <i class="fa fa-wrench" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+              <button class="btn btn-primary to-show" id="to-show2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">VIEW MORE</button>
+            </p>
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+                <h4>HTML/CSS: Fundamental</h4>
+                  <div class="">
+                    <span class="vach"></span>
+                    <span class="gray"></span>
+                    <span class="gray"></span>
+                  </div>  
+                <h4>Javascript: Intermediate</h4>
+                  <div>
+                    <span class="vach"></span>
+                    <span class="vach"></span>
+                    <span class="gray"></span>
+                  </div>  
+                <h4>NodeJS: Intermediate</h4>
+                  <div>
+                    <span class="vach"></span>
+                    <span class="vach"></span>
+                    <span class="gray"></span>
+                  </div>  
+                <h4>Bootstrap 5: Fundamental</h4>
+                  <div>
+                    <span class="vach"></span>
+                    <span class="gray"></span>
+                    <span class="gray"></span>
+                  </div>  
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1 class="">Ngôn ngữ</h1>
+            <div class="grid2">
+              <i class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+            <button class="btn btn-primary " id="to-show3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">VIEW MORE</button>
+            </p>
+            <div class="collapse" id="collapseExample3">
+              <div class="card card-body">
+              <h4>Tiếng Anh-lELTS 7.0</h4>
+                <div>
+                  <span class="vach"></span>
+                  <span class="vach"></span>
+                  <span class="gray"></span>
+                </div>  
+              <h4>Tiếng Nhật-JLPT N4</h4>
+                <div>
+                  <span class="vach"></span>
+                  <span class="gray"></span>
+                  <span class="gray"></span>
+                </div>  
+              </div>
+              </div>
+              <!-- <h4>Tiếng Anh-lELTS 7.0</h4>
+              <span class="vach"></span>
+              <span class="vach"></span>
+              <span class="gray"></span>
+              <h4>Tiếng Nhật-JLPT N4</h4>
+              <span class="vach"></span>
+              <span class="gray"></span>
+              <span class="gray"></span> -->
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1 class="">Hoạt động</h1>
+            <div class="grid2">
+              <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+              <button class="btn btn-primary" id="to-show4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample1">VIEW MORE</button>
+              </p>
+              <div class="collapse" id="collapseExample4">
+                <div class="card card-body">
+                  <h4>FPT edu Hackathon</h4>
+                  <p><i>03/2019-03/2019</i></p>
+                  <p>-Giải 3 Bảng A</p>
+                  <p>-Đề Tài: Trang Web phân loại rác thải</p>
+                  <h4>Câu lạc bộ Z</h4>
+                  <p><i>08/2016-03/2017</i></p>
+                  <p>-Trưởng Ban chuyên môn</p> 
+                </div>
+              </div>
+              <!-- <h4>FPT edu Hackathon</h4>
+              <p><i>03/2019-03/2019</i></p>
+              <p>-Giải 3 Bảng A</p>
+              <p>-Đề Tài: Trang Web phân loại rác thải</p>
+              <h4>Câu lạc bộ Z</h4>
+              <p><i>08/2016-03/2017</i></p>
+              <p>-Trưởng Ban chuyên môn</p> -->
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1 class="">Học vấn</h1>
+            <div class="grid2">
+              <i class="fa fa-pencil" aria-hidden="true" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+              <button class="btn btn-primary" id="to-show5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample1">VIEW MORE</button>
+            </p>
+            <div class="collapse" id="collapseExample5">
+              <div class="card card-body">
+                <h4>Funix</h4>
+                <p><i>06/2021-05/2022</i></p>
+                <p>-Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+                <p>-GPA:9/10</p>
+                <h4>Cử nhân ĐH FPT</h4>
+                <p><i>08/2016 07/2019</i></p>
+                <p>GPA: 3.2 / 4</p>
+              </div>
+            </div>
+              <!-- <h4>Funix</h4>
+              <p><i>06/2021-05/2022</i></p>
+              <p>-Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+              <p>-GPA:9/10</p>
+              <h4>Cử nhân ĐH FPT</h4>
+              <p><i>08/2016 07/2019</i></p>
+              <p>GPA: 3.2 / 4</p> -->
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 noi-dung">
+            <h1 class="">Sở thích</h1>
+            <div class="grid2">
+              <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            </div>
+            <div class="grid3">
+              <button class="btn btn-primary" id="to-show6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">VIEW MORE</button>
+            </p>
+            <div class="collapse" id="collapseExample6">
+              <div class="card card-body">
+                <ul>
+                  <li>
+                    <i class="fa fa-headphones" aria-hidden="true"></i
+                    ><span>Nghe Nhạc</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-desktop" aria-hidden="true"></i
+                    ><span>Lập trình</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-futbol-o" aria-hidden="true"></i
+                    ><span>thể thao</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-gamepad" aria-hidden="true"></i
+                    ><span>Chơi game</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-star" aria-hidden="true"></i
+                    ><span>Chơi cờ</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-plane" aria-hidden="true"></i
+                    ><span>Du lịch</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="bg-grey">
+      <div class="container4">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <img class="giai-thuong" src="./images/Cert_DBI.png" />
+              </div>
+              <div class="col-lg-7 chu">
+                <h4>CHỨNG CHỈ LẬP TRÌNH WEB-FUNiX</h4>
+                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                <p>- GPA:8.6</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row border-c">
+              <div class="col-12 col-lg-5">
+                <img class="giai-thuong" src="./images/Cert_PRF.png" />
+              </div>
+              <div class="col-lg-7 chu">
+                <h4>CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT-FUNiX</h4>
+                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                <p>- GPA: 8.9</p>
+              </div>
+            </div>
+          </div>
+          <span style="height: 1px" class="ke-ngang"></span>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <img class="giai-thuong" src="./images/Cert_WEB.png" />
+              </div>
+              <div class="col-lg-7 chu">
+                <h4>CHỨNG CHỈ DATABASE-FUNiX</h4>
+                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                <p>- GPA: 8.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-sm-12 col-md-6">
+          <div class="row ">
+            <div class="col-sm-12 col-md-4">
+              <img class="giai-thuong" src="./images/Cert_WEB.png" />
+            </div>
+            <div class="col-md-8 chu">
+              <h4>CHỨNG CHỈ DATABASE-FUNiX</h4>
+              <p>- Chứng chỉ thuộc chương trình CCDN</p>
+              <p>- GPA: 8.0</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section id="project">
+      <div class="container5">
+        <h1 class="section-title">Dự án</h1>
+        <div class="du-an">
+          <div class="container">
+            <div class="row g-2">
+              <div class="noi-dung3 col-12 col-lg-4 col-md-4">
+                <img class="imgDas" src="./images/project_1.png" />
+                <div class="chu4">CV CÁ NHÂN</div>
+                <div class="border">
+                  <!-- <div class="green2">2021</div>
+                  <i class="fa fa-user" aria-hidden="true"></i
+                  ><span style="margin: 10px">FUNIX</span>
+                  <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+                  ><span style="margin: 10px">Developer</span> -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6">
+                        <div class="vien">2021</div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div>
+                          <i class="fa fa-user" aria-hidden="true"></i
+                          ><span>FUNIX</span>
+                        </div>
+                        <div>
+                          <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+                          ><span>Developer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <table>
+                  <tr>
+                    <td>Mô tả</td>
+                    <td>
+                      Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                      nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức năng
+                      thêm / sửa / xóa.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td >Nhiệm vụ</td>
+                    <td>Phát triển, tối ưu code và xử lý lỗi</td>
+                  </tr>
+                  <tr>
+                    <td >Công Nghệ</td>
+                    <td>HTML, CSS.</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="noi-dung3 col-12 col-lg-4 col-md-4">
+                <img class="imgDas" src="./images/project_2.png" />
+            <div class="chu4">TRANG WEB QUẢN LÝ THÚ CƯNG</div>
+            <div class="border">
+              <!-- <div class="green2">2021</div>
+              <i class="fa fa-user" aria-hidden="true"></i
+              ><span style="margin: 10px">FUNIX</span>
+              <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+              ><span style="margin: 10px">Developer</span> -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <div class="vien">2021</div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <i class="fa fa-user" aria-hidden="true"></i
+                      ><span>FUNIX</span>
+                    </div>
+                    <div>
+                      <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+                      ><span>Developer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <table>
+              <tr>
+                <td >Mô tả</td>
+                <td>
+                  Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                  nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức năng
+                  thêm / sửa / xóa.
+                </td>
+              </tr>
+              <tr>
+                <td >Nhiệm vụ</td>
+                <td>Phát triển, tối ưu code và xử lý lỗi</td>
+              </tr>
+              <tr>
+                <td >Công Nghệ</td>
+                <td>HTML, CSS ,JAVASCRIPT.</td>
+              </tr>
+            </table>
+              </div>
+              <div class="noi-dung3 col-12 col-lg-4 col-md-4">
+                <img class="imgDas" src="./images/project_3.png" />
+                <div class="chu4">TRANG WEB XEM TIN TỨC</div>
+                <div class="border">
+                  <!-- <div class="green2">2021</div>
+                  <i class="fa fa-user" aria-hidden="true"></i
+                  ><span style="margin: 10px">FUNIX</span>
+                  <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+                  ><span style="margin: 10px">Developer</span> -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6">
+                        <div class="vien">2021</div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div>
+                          <i class="fa fa-user" aria-hidden="true"></i
+                          ><span>FUNIX</span>
+                        </div>
+                        <div>
+                          <i class="fa fa-lightbulb-o" aria-hidden="true"></i
+                          ><span>Developer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <table>
+                  <tr>
+                    <td >Mô tả</td>
+                    <td>
+                      Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có
+                      thể tìm kiếm các tin tức dựa theo các từ khóa
+                    </td>
+                  </tr>
+                  <tr>
+                    <td >Nhiệm vụ</td>
+                    <td>Phát triển, tối ưu code và xử lý lỗi</td>
+                  </tr>
+                  <tr>
+                    <td >Công Nghệ</td>
+                    <td>HTML, CSS ,JAVASCRIPT.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <ul>
+          <div class="row">
+            <div class="col">
+              <li>
+                <i class="fa fa-facebook" aria-hidden="true"></i
+                ><span>Facebook</span>
+              </li>
+            </div>
+            <div class="col">
+              <li>
+                <i class="fa fa-linkedin" aria-hidden="true"></i
+                ><span>Linkedin</span>
+              </li>
+            </div>
+            <div class="col">
+              <li>
+                <i class="fa fa-github" aria-hidden="true"></i><span>Github</span>
+              </li>
+            </div>
+          </div>  
+        </ul>
+        <!-- <ul>
+          <li>
+            <i class="fa fa-facebook" aria-hidden="true"></i
+            ><span>Facebook</span>
+          </li>
+          <li>
+            <i class="fa fa-linkedin" aria-hidden="true"></i
+            ><span>Linkedin</span>
+          </li>
+          <li>
+            <i class="fa fa-github" aria-hidden="true"></i><span>Github</span>
+          </li>
+        </ul> -->
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
