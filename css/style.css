@@ -37,7 +37,7 @@ body {
   transform: translate(-50%, -50%);
 }
 #banner {
-  background-image: url(../banner.png);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
